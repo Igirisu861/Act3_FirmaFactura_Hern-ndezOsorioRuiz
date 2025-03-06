@@ -29,8 +29,8 @@ def generate_sello(clave_privada, cadena_original):
 
 # Rutas de los archivos 
 cer_path = "tu_certificado.cer"
-key_path = "tu_llave.key"
-password = "tu_contraseña"
+key_path = "tu_llave.KEY"
+password = "12345678a"
 
 # Cargar llave y certificado
 clave_privada = load_private_key(key_path, password)
